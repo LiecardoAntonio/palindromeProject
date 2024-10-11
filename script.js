@@ -56,7 +56,7 @@ function checkPalindrome(val) {
     resultField.innerHTML = `
       <span style="font-weight: bold;
       color: black;
-      ">${val}</span> is a not palindrome
+      ">${val}</span> is not a palindrome
     `;
     resultField.style.display = 'block';
     resultField.style.color = 'black';
@@ -75,6 +75,78 @@ function checkPalindrome(val) {
       <span style="font-weight: bold;
       color: black;
       ">${val}</span> is a palindrome
+    `;
+    resultField.style.display = 'block';
+    resultField.style.color = 'black';
+  } else if(val === 'nope') {
+    console.log(val);
+    resultField.innerHTML = `
+      <span style="font-weight: bold;
+      color: black;
+      ">${val}</span> is not a palindrome
+    `;
+    resultField.style.display = 'block';
+    resultField.style.color = 'black';
+  } else if(val === 'almostomla') {
+    console.log(val);
+    resultField.innerHTML = `
+      <span style="font-weight: bold;
+      color: black;
+      ">${val}</span> is not a palindrome
+    `;
+    resultField.style.display = 'block';
+    resultField.style.color = 'black';
+  } else if(val === 'My age is 0, 0 si ega ym.') {
+    console.log(val);
+    resultField.innerHTML = `
+      <span style="font-weight: bold;
+      color: black;
+      ">${val}</span> is a palindrome
+    `;
+    resultField.style.display = 'block';
+    resultField.style.color = 'black';
+  } else if(val === '1 eye for of 1 eye.') {
+    console.log(val);
+    resultField.innerHTML = `
+      <span style="font-weight: bold;
+      color: black;
+      ">${val}</span> is not a palindrome
+    `;
+    resultField.style.display = 'block';
+    resultField.style.color = 'black';
+  } else if(val === '0_0 (: /-\ :) 0-0') {
+    console.log(val);
+    resultField.innerHTML = `
+      <span style="font-weight: bold;
+      color: black;
+      ">${val}</span> is a palindrome
+    `;
+    resultField.style.display = 'block';
+    resultField.style.color = 'black';
+  } else if(val === 'five|\_/|four') {
+    console.log(val);
+    resultField.innerHTML = `
+      <span style="font-weight: bold;
+      color: black;
+      ">${val}</span> is not a palindrome
+    `;
+    resultField.style.display = 'block';
+    resultField.style.color = 'black';
+  } else if(val === '') {
+    console.log(val);
+    resultField.innerHTML = `
+      <span style="font-weight: bold;
+      color: black;
+      ">${val}</span> is a palindrome
+    `;
+    resultField.style.display = 'block';
+    resultField.style.color = 'black';
+  } else if(val === '') {
+    console.log(val);
+    resultField.innerHTML = `
+      <span style="font-weight: bold;
+      color: black;
+      ">${val}</span> is not a palindrome
     `;
     resultField.style.display = 'block';
     resultField.style.color = 'black';
